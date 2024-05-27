@@ -64,3 +64,5 @@ st.write("### Payment Schedule")
 payments_df = df[["Year", "Remaining Balance"]].groupby("Year").min()
 st.line_chart(payments_df)
 
+st.write("##### This is a test deployment of code learned from the following tutorial: https://www.youtube.com/watch?v=D0D4Pa22iG0")
+st.write("##### The code is available at the following GitHub repository: https://github.com/pixegami/streamlit-demo-app.git")
